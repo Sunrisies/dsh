@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "语音输入",
+    "description": "使用小米 MiMo 云端识别，或切换到本机 SenseVoice；首次使用本地模型需安装依赖。"
+  }
+}

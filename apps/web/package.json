@@ -65,6 +65,6 @@
     "@deepseek-ai/dsh-subprocess-local": "workspace:*",
     "@deepseek-ai/dsh-experimental-auto-review": "workspace:*",
     "@deepseek-ai/dsh-experimental-speech-to-text": "workspace:*",
-    "@deepseek-ai/dsh-experimental-voice-input-bundle": "workspace:*"
+    "@deepseek-ai/dsh-experimental-voice-input-mimo-bundle": "workspace:*"
   }
 }

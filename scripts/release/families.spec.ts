@@ -64,9 +64,11 @@ describe('release families', () => {
       '@deepseek-ai/dsh-experimental-ptc-runtime-python',
       '@deepseek-ai/dsh-experimental-schedule-bundle',
       '@deepseek-ai/dsh-experimental-speech-to-text-sensevoice',
+      '@deepseek-ai/dsh-experimental-speech-to-text-mimo',
       '@deepseek-ai/dsh-experimental-speech-to-text',
       '@deepseek-ai/dsh-experimental-tool-agent-team',
       '@deepseek-ai/dsh-experimental-voice-input-bundle',
+      '@deepseek-ai/dsh-experimental-voice-input-mimo-bundle',
       '@deepseek-ai/dsh-experimental-webworker-packer',
       '@deepseek-ai/dsh-experimental-webworker-runtime',
     ])

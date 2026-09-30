@@ -16,6 +16,12 @@ packages:
 
 overrides:
   'extract-zip>yauzl': '3.4.0'
+  # Collapse the micromark type/runtime family to one version set. Duplicate
+  # micromark-util-types (2.0.2 vs 2.0.3) makes Extension types incompatible
+  # under exactOptionalPropertyTypes and fails ui-primitives parse.ts overloads.
+  'micromark-util-types': '2.0.3'
+  'micromark-core-commonmark': '2.0.4'
+  'micromark-factory-space': '2.1.0'
   '@deepseek-ai/cosmokit': 'link:vendor/cosmokit'
   '@deepseek-ai/schemastery': 'link:vendor/schemastery'
 
